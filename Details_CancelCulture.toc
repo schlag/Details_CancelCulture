@@ -1,0 +1,14 @@
+## Interface: 110100
+## Title: Details!: Cancel Culture (plugin)
+## Notes: Tracks interrupts, stops, knockbacks, and overlaps in combat.
+## RequiredDeps: Details
+## Author: schlag
+## Version: v1.0.0
+## IconTexture: Interface\AddOns\Details_CancelCulture\Textures\CancelCulture.blp
+## SavedVariablesPerCharacter: CancelCultureLog
+
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\AceHook-3.0\AceHook-3.0.xml
+
+Core.lua
