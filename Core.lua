@@ -99,6 +99,11 @@ CC.ccInterruptSpells = {
     [108194] = true, -- Asphyxiate
     [108199] = true, -- Gorefiend's Grasp
     [207167] = true, -- Blinding Sleet
+    [49576] = true,  -- Death Grip
+    [383313] = true, -- Abomination Limb
+    [323710] = true, -- Abomination Limb
+    [323798] = true, -- Abomination Limb
+    [47481] = true,  -- Gnaw
     -- Druid
     [5211] = true,   -- Mighty Bash
     [99] = true,     -- Incapacitating Roar
