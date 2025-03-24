@@ -100,6 +100,8 @@ CC.ccInterruptSpells = {
     [108199] = true, -- Gorefiend's Grasp
     [207167] = true, -- Blinding Sleet
     [47481] = true,  -- Gnaw
+    [51399] = true,  -- Death Grip
+    [383312] = true, -- Abomination Limb
     -- Druid
     [5211] = true,   -- Mighty Bash
     [99] = true,     -- Incapacitating Roar
@@ -159,10 +161,6 @@ CC.ccInterruptSpells = {
 }
 
 CC.knockbackSpells = {
-    -- Death Knight
-    [49576] = true,  -- Death Grip
-    [323710] = true, -- Abomination Limb
-    [323798] = true, -- Abomination Limb
     -- Druid
     [132469] = true, -- Typhoon
     [102793] = true, -- Ursol's Vortex
