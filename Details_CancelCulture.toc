@@ -3,7 +3,7 @@
 ## Notes: Tracks interrupts, stops, knockbacks, and overlaps in combat.
 ## RequiredDeps: Details
 ## Author: schlag
-## Version: v1.0.3
+## Version: v1.0.4
 ## IconTexture: Interface\AddOns\Details_CancelCulture\Textures\CancelCulture.blp
 ## SavedVariablesPerCharacter: CancelCultureLog
 

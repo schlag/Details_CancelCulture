@@ -633,7 +633,7 @@ function CC:COMBAT_LOG_EVENT_UNFILTERED()
             local playerGUID = self:GetActualPlayerGUID(srcGUID, srcFlags)
             if self.recentInterrupts[destGUID] then
                 self.recentInterrupts[destGUID].timer = C_Timer.NewTimer(self.INTERRUPT_WINDOW, function()
-                    if not CC.recentInterrupts[destGUID].success then
+                    if CC.recentInterrupts[destGUID] and not CC.recentInterrupts[destGUID].success then
                         CC:RecordStop(playerGUID, spellId, destGUID, CC.recentInterrupts[destGUID].spellID, CC.recentInterrupts[destGUID].spellName)
                     end
                     CC.recentInterrupts[destGUID] = nil
